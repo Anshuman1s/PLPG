@@ -29,7 +29,7 @@ export default function Home() {
     setShowRoadmap(true);
 
     try {
-      console.log("[v0] Sending request with data:", data);
+      console.log("Sending request with data:", data);
       const response = await fetch("/api/generate-roadmap", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
@@ -92,11 +92,11 @@ export default function Home() {
                 </span>
               </div>
               <span className="font-bold text-lg text-foreground font-heading">
-                LearnPath
+                Learn-Path
               </span>
             </div>
-            <span className="text-xs text-muted-foreground border border-border rounded-full px-3 py-1">
-              AI Strategy Generator
+            <span className="text-xs text-muted-foreground border border-border rounded-sm px-3 py-1 text-bold">
+              Hey, Anshuman
             </span>
           </div>
         </header>
@@ -125,7 +125,7 @@ export default function Home() {
         {/* Footer */}
         <footer className="border-t border-border/50 mt-12">
           <div className="mx-auto max-w-5xl px-4 py-6 text-center text-sm text-muted-foreground">
-            Powered by AI to help you learn smarter, not harder.
+          Powered by AI to generate personalized learning roadmaps tailored to your goals, time, and skill level.
           </div>
         </footer>
       </div>

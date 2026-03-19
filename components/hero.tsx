@@ -3,7 +3,7 @@ import { Sparkles, Zap, BarChart3, BookOpen } from "lucide-react";
 export function Hero() {
   return (
     <div className="text-center flex flex-col items-center gap-6">
-      <div className="inline-flex items-center gap-2 rounded-full border border-primary/30 bg-primary/10 px-4 py-1.5 text-sm text-primary">
+      <div className="inline-flex items-center gap-2 rounded-sm border border-primary/30 bg-primary/10 px-4 py-1.5 text-sm text-primary">
         <Sparkles className="size-3.5" />
         AI-Powered Learning
       </div>

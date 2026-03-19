@@ -276,7 +276,7 @@ export function AssessmentForm({ onGenerate, isLoading }: AssessmentFormProps) {
           </span>
         ) : (
           <span className="flex items-center gap-2">
-            <Sparkles className="size-5" />
+            <Sparkles className="size-5 cursor-pointer" />
             Generate Learning Roadmap
           </span>
         )}
